@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 800px;
+    background-color: gray;
+    margin: 0px auto;
+    padding: 25px 0px;
+
+}
+.navbar{
+    width: 700px;
+    background-color: green;
+    height: 100px;
+    margin: 0px 25px;
+    
+}
+.row{
+    margin: 25px;
+    display: flex;
+}
+.menu{
+    width:200px ;
+    height:350px ;
+    background-color: blue;
+    
+    vertical-align: top;
+
+}
+.main{
+    width: 500px;
+    background-color: red;
+    
+    margin-left: 25px;
+}
+.box{
+    width: 140px;
+    height: 140px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+.cookies{
+    width: 430px;
+    height: 100px;
+    background-color: purple;
+    margin: 25px;
+}

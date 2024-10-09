@@ -1,143 +1,197 @@
-.nav{
-    display: flex;
-    justify-content: space-between;
-    background-color:rgba(42, 38, 38, 0.922);
+.navbar {
+    margin: 0 auto;
+    background-color: black;
     color: white;
-    padding: 10px;
-    font-family: sans-serif  ;
-
-
-}
-.nav-title{
     display: flex;
-    align-items: start;
-
-
+    justify-content: space-evenly;
+    font-family: sans-serif;
 }
-
-.nav-links{
+.navtitle{
 display: flex;
-color: rgba(110, 93, 93, 0.686);
-align-items: center;
-padding-right:20px;
 justify-content: flex-start;
 
-
 }
-li{
+.navlinks {
+    color: white;
     display: flex;
-    padding: 10px;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+    text-decoration: none;
 }
 a{
-    color: rgb(166, 168, 169);
     text-decoration: none;
+    color: rgb(152, 150, 150);
 }
-.btn{
-    background-color:aqua;
-    color: white;
-    border-color: black;
-    box-shadow: 1px 1px 1px 1px black;
+.btn {
+    background-color: rgb(42, 218, 245);
 }
-.active{
-    text-decoration: none;
+.light {
     color: whitesmoke;
-}
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-    font-weight:500;
-
-}
-
-.container{
+} 
+.content{
     display: flex;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 100px;
 }
-
 .usercard{
-    width: 450px;
+    border: 2px solid black;
+    width: 400px;
     height: 300px;
-    border: 2px solid grey;
+    
 }
-
-.userheader{
-    height: 100px;
-    background-color: #17A2B8;
+.cardheader{
+    background-color: aqua;
+    height: 60px;
 }
-
-.profile{
-    height: 200px;
+.user {
+    height:90px ;
+    border-radius: 50px;
     position: relative;
-    top: 60px;
+    top: 10px;
+    border: 4px solid white;
 }
-
-img{
-    height: 15px;
-}
-
-.info{
+.userinfo {
+    padding-top: 50px;
     padding-left: 20px;
 
 }
+.adress {
+    height: 10px;
+    padding-right: 2px;
 
-.adress{
-    position: relative;
-    top: 35px;
 }
-
-.description{
-    padding-top: 8px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+.gear {
+    height: 20px;
 }
-
-h2{
-    padding-top: 3px;
-    padding-bottom: 3px;
-    font-weight:600;
-}
-
-.profile-pic{
-    height: 75px;
-    padding-left: 25px;
-}
-
-a{
-    bottom: 100px;
-    color: #085394;
-}
-
-.link{
-    display: flex;
-    padding-top: 5px;
-    align-items: center;
-}
-.navedu{
-    background-color: black;
-    color: white;
+.main1 {
+   
     
 }
 .education {
-    width: 150px;
-    height: 200px;
-    border: 2px  solid black;
-    background-color:white;
+    border: 2px solid black;
+    margin-top: 10px;
+    
+
 }
-.container {
+.naveducation {
+    background-color: black;
+    color: white;
+    height: 30px;
+    padding: 5px;
+}
+.educationbody {
+    font-family: sans-serif;
+}
+.date {
+    color: rgb(136, 129, 129);
+
+}
+.connexionrqst {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+}
+.navbarrqst {
+    height: 25px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-between;    
+
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    color: white;
 }
-.connexionrqt {
-    width: 150px;
-    height: 200px;
-    border: 20px solid black;
+.two {
+    height: 30px;
+    width: 30px;
+    background-color: grey;
+    border-radius: 80px;
+    padding-left: 10px;
 }
-.usercircle {
+h2{
+    margin-right: 15px;
+}
+.toddE{
     display: flex;
-    height: 75px;
-    padding-left: 25px;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    
+}
+.Todd {
+    height: 50px;
+    border-radius: 50px;
+}
+.accept{
+    height: 30px;
+    border-radius: 50px;
+}
+.close {
+    height: 30px;
+    border-radius: 50px;
+}
+.phill{
+    height: 50px;
+    border-radius: 50px;
+}
+.phillk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+}
+.content {
+  gap: 20px;
+}
+.yourconnections {
+    
+    border: 2px solid black;
+}
+.navcon {
+    height: 25px;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+span{ 
+    height: 30px;
+    width: 30px;
+    background-color: grey;
+    border-radius:50px;
+  
+    
+    
+}
+.profilepic{
+    list-style-type: none;
+}
+.adrien{
+    height: 50px;
+    border-radius: 50px;
+}
+.alyane{
+    height: 50px;
+    border-radius: 50px;
+}
+.arry{
+    height: 50px;
+    border-radius: 50px;
+}
+.anne{
+    height: 50px;
+    border-radius: 50px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    text-decoration: underline;
+    width: 100%;
+    border-top:  2px solid  black;
 }

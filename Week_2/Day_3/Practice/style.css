@@ -1,0 +1,127 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+   height: 90px;
+    background-color: rgb(17, 209, 252);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.navbar h1 {
+    display: flex;
+    align-items: center;
+   
+}
+select {
+    border: 2px solid black;
+    background-color: white;
+}
+.links{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    
+    
+}
+.subnav {
+    width: 1200px;
+    height: 100px;
+    margin: 0% auto;
+    border-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hr{
+   width: 1200px;
+}
+.main {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.box1 {
+    border: 2px solid rgb(233, 232, 232);
+    padding: 10px;
+    background-color: rgb(233, 232, 232);;
+} 
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+.sun { 
+    border: 2px solid rgb(233, 232, 232) ;
+    border-radius: 120px;
+}
+.box2 {
+    border: 2px solid rgb(233, 232, 232);
+    padding: 10px;
+    background-color: rgb(233, 232, 232);
+}
+.box3 {
+    border: 2px solid rgb(233, 232, 232);
+    padding: 10px;
+    background-color: rgb(233, 232, 232);;
+}
+.box4 {
+    border: 2px solid rgb(233, 232, 232);
+    padding: 10px;
+    background-color: rgb(233, 232, 232);;
+}
+.clouds {
+    border: 2px solid rgb(233, 232, 232) ;
+    border-radius: 120px;
+}
+.rain{
+    border: 2px solid rgb(233, 232, 232) ;
+    border-radius: 120px;
+} 
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.degre{
+    display: flex;
+    justify-content: space-between;
+}
+.max {
+    color: red;
+}
+.min {
+    color: rgb(77, 77, 255);
+}
+.cookie{
+    width: 1200px;
+    height: 100px;
+    margin: 0% auto;
+    border-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    border: 2px solid black;
+    gap: 20px;
+    background-color: rgb(233, 232, 232);
+    
+    position: fixed;
+    bottom: 0;
+    left: 350px;
+
+}
+button{
+    background-color: rgb(18, 154, 212);
+    color: black;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+    margin-right: 10px;
+    width: 100px;
+}
